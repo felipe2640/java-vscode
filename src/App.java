@@ -1,18 +1,16 @@
-import javax.print.PrintServiceLookup;
+
+/* import helloworld.helloword;
+import helloworld.IO;
+import calculadora.soma;
+import helloworld.For; */
+import calculadora.calculadora;
 
 public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-        String[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
-        System.out.println(cars[3]);
-        int numero = 10;
-        numero = soma(1, 2);
-        System.out.println(numero);
-
-    }
-
-    public static int soma(int num, int num2) {
-        return num + num2;
-
+    public static void main(String[] args) {
+        // helloword.main(args);
+        // For.LearningFor();
+        // IO.TestInput(args);
+        // soma.Soma(2, 4);
+        calculadora.main(args);
     }
 }
